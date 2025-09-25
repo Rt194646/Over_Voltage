@@ -1,6 +1,6 @@
-package com.ov.registry;
+package com.overvoltage.registry;
 
-import com.ov.Overvoltage;
+import com.overvoltage.Overvoltage;
 
 public class DescriptionHelper {
     public static String itemDescKey(String name) {

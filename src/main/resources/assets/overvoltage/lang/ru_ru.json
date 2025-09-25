@@ -1,8 +1,10 @@
 {
+  "creativetab.overvoltage.overvoltage_tab": "Over Voltage Херовины",
   "itemGroup.overvoltage.main": "Overvoltage",
 
   "item.overvoltage.raw_titanium": "Титановая Руда",
-  "item.overvoltage.raw_titanium.desc": "Куча Титановой Руды.",
+  "tooltip.overvoltage.raw_titanium.line1": "Куча Титановой руды. Полезна в крафте.",
+  "tooltip.overvoltage.raw_titanium.line2": "Хуй",
 
   "block.overvoltage.titanium_block": "Титановый Блок",
   "block.overvoltage.titanium_block.desc": "Гребанный Титановый Блок."

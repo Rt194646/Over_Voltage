@@ -1,4 +1,4 @@
-package com.ov.content.blocks;
+package com.overvoltage.content.blocks;
 
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.BlockItem;

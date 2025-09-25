@@ -1,4 +1,4 @@
-package com.ov.content.items;
+package com.overvoltage.content.items;
 
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.Item;

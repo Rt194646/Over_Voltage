@@ -139,6 +139,12 @@ repositories {
     // flatDir {
     //     dir 'libs'
     // }
+
+    mavenCentral()
+    mavenLocal()
+    flatDir {
+        dirs "libs"
+    }
 }
 
 dependencies {

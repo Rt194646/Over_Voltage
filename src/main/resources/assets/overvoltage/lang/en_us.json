@@ -1,9 +1,14 @@
 {
+  "creativetab.overvoltage.overvoltage_tab": "Overvoltage",
+
   "itemGroup.overvoltage.main": "Overvoltage",
 
   "item.overvoltage.raw_titanium": "Raw Titanium",
-  "item.overvoltage.raw_titanium.desc": "A chunk of raw titanium. Useful for crafting.",
+  "tooltip.overvoltage.raw_titanium.line1": "A chunk of raw titanium. Useful for crafting.",
+  "tooltip.overvoltage.raw_titanium.line2": "I wanna sandwich.",
+
 
   "block.overvoltage.titanium_block": "Titanium Block",
-  "block.overvoltage.titanium_block.desc": "Strong metallic block."
+  "block.overvoltage.titanium_block.desc": "Strong metallic block.",
+  "block.overvoltage.titanium_block.line1": "Strong metallic block"
 }

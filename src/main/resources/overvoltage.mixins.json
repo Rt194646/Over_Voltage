@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.ov.overvoltage.mixin",
+  "package": "com.overvoltage.overvoltage.mixin",
   "compatibilityLevel": "JAVA_8",
   "refmap": "overvoltage.refmap.json",
   "mixins": [

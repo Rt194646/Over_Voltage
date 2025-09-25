@@ -1,0 +1,9 @@
+{
+  "itemGroup.overvoltage.main": "Overvoltage",
+
+  "item.overvoltage.raw_titanium": "Титановая Руда",
+  "item.overvoltage.raw_titanium.desc": "Куча Титановой Руды.",
+
+  "block.overvoltage.titanium_block": "Титановый Блок",
+  "block.overvoltage.titanium_block.desc": "Гребанный Титановый Блок."
+}

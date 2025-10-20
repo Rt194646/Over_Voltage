@@ -77,7 +77,6 @@ public class ModCreativeTabs {
                                 output.accept(ModItems.INGOT_GAAS.get());
                                 output.accept(ModItems.INGOT_TT.get());
                                 output.accept(ModItems.INGOT_TTAS.get());
-                                output.accept(ModItems.INGOT_PLATNIUM.get());
                                 output.accept(ModItems.INGOT_IRIDIUM.get());
                                 output.accept(ModItems.INGOT_PALLADIUM.get());
                                 output.accept(ModItems.INGOT_ALUMINIUM.get());
@@ -103,7 +102,7 @@ public class ModCreativeTabs {
                                 output.accept(ModItems.INGOT_FIREBRICK.get());
                                 output.accept(ModItems.INGOT_DURA_STEEL.get());
                                 output.accept(ModItems.INGOT_POLYMER.get());
-                                output.accept(ModItems.INGOT_POLYMER.get());
+                                output.accept(ModItems.INGOT_BAKELITE.get());
                                 output.accept(ModItems.INGOT_BIORUBBER.get());
                                 output.accept(ModItems.INGOT_RUBBER.get());
                                 output.accept(ModItems.INGOT_PC.get());

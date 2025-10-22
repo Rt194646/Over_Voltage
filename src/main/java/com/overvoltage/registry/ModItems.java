@@ -22,6 +22,14 @@ public class ModItems {
             ITEMS.register("water_bottle",
                     () -> new Item(new Item.Properties()));
 
+    // Other
+
+    public static final RegistryObject<Item> HARD_DRIVE =
+            ITEMS.register("hard_drive",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> HARD_DRIVE_FULL =
+            ITEMS.register("hard_drive_full",
+                    () -> new Item(new Item.Properties().stacksTo(1)));
 
     // ingots
 
@@ -474,6 +482,186 @@ public class ModItems {
                     () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> INGOT_RAW =
             ITEMS.register("ingot_raw",
+                    () -> new Item(new Item.Properties()));
+
+    // pellets
+
+    public static final RegistryObject<Item> PELLET_RTG_RADIUM =
+            ITEMS.register("pellet_rtg_radium",
+                    () -> new Item(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> PELLET_RTG_WEAK =
+            ITEMS.register("pellet_rtg_weak",
+                    () -> new Item(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> PELLET_RTG =
+            ITEMS.register("pellet_rtg",
+                    () -> new Item(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> PELLET_RTG_STRONTIUM =
+            ITEMS.register("pellet_rtg_strontium",
+                    () -> new Item(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> PELLET_RTG_COBALT =
+            ITEMS.register("pellet_rtg_cobalt",
+                    () -> new Item(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> PELLET_RTG_ACTINIUM =
+            ITEMS.register("pellet_rtg_actinium",
+                    () -> new Item(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> PELLET_RTG_POLONIUM =
+            ITEMS.register("pellet_rtg_polonium",
+                    () -> new Item(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> PELLET_RTG_AMERICIUM =
+            ITEMS.register("pellet_rtg_americium",
+                    () -> new Item(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> PELLET_RTG_BERKELIUM =
+            ITEMS.register("pellet_rtg_berkelium",
+                    () -> new Item(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> PELLET_RTG_GOLD =
+            ITEMS.register("pellet_rtg_gold",
+                    () -> new Item(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> PELLET_RTG_LEAD =
+            ITEMS.register("pellet_rtg_lead",
+                    () -> new Item(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> PELLET_RTG_CF251 =
+            ITEMS.register("pellet_rtg_cf251",
+                    () -> new Item(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> PELLET_RTG_CF252 =
+            ITEMS.register("pellet_rtg_cf252",
+                    () -> new Item(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> PELLET_RTG_DEPLETED =
+            ITEMS.register("pellet_rtg_depleted",
+                    () -> new Item(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> PELLET_CLUSTER =
+            ITEMS.register("pellet_cluster",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PELLET_BUCKSHOT =
+            ITEMS.register("pellet_buckshot",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PELLET_CHARGED =
+            ITEMS.register("pellet_charged",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PELLET_GAS =
+            ITEMS.register("pellet_gas",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PELLET_ANTIMATTER =
+            ITEMS.register("pellet_antimatter",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RBMK_PELLET_UEU =
+            ITEMS.register("rbmk_pellet_ueu",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RBMK_PELLET_MEU =
+            ITEMS.register("rbmk_pellet_meu",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RBMK_PELLET_HEU233 =
+            ITEMS.register("rbmk_pellet_heu233",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RBMK_PELLET_HEU235 =
+            ITEMS.register("rbmk_pellet_heu235",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RBMK_PELLET_THMEU =
+            ITEMS.register("rbmk_pellet_thmeu",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RBMK_PELLET_LEP =
+            ITEMS.register("rbmk_pellet_lep",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RBMK_PELLET_MEP =
+            ITEMS.register("rbmk_pellet_mep",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RBMK_PELLET_HEP239 =
+            ITEMS.register("rbmk_pellet_hep239",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RBMK_PELLET_HEP241 =
+            ITEMS.register("rbmk_pellet_hep241",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RBMK_PELLET_LEA =
+            ITEMS.register("rbmk_pellet_lea",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RBMK_PELLET_MEA =
+            ITEMS.register("rbmk_pellet_mea",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RBMK_PELLET_HEA241 =
+            ITEMS.register("rbmk_pellet_hea241",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RBMK_PELLET_HEA242 =
+            ITEMS.register("rbmk_pellet_hea242",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RBMK_PELLET_BK247 =
+            ITEMS.register("rbmk_pellet_bk247",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RBMK_PELLET_MEN =
+            ITEMS.register("rbmk_pellet_men",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RBMK_PELLET_HEN =
+            ITEMS.register("rbmk_pellet_hen",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RBMK_PELLET_MOX =
+            ITEMS.register("rbmk_pellet_mox",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RBMK_PELLET_LES =
+            ITEMS.register("rbmk_pellet_les",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RBMK_PELLET_MES =
+            ITEMS.register("rbmk_pellet_mes",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RBMK_PELLET_HES =
+            ITEMS.register("rbmk_pellet_hes",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RBMK_PELLET_LEAUS =
+            ITEMS.register("rbmk_pellet_leaus",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RBMK_PELLET_HEAUS =
+            ITEMS.register("rbmk_pellet_heaus",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RBMK_PELLET_PO210BE =
+            ITEMS.register("rbmk_pellet_po210be",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RBMK_PELLET_RA226BE =
+            ITEMS.register("rbmk_pellet_ra226be",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RBMK_PELLET_PU238BE =
+            ITEMS.register("rbmk_pellet_pu238be",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RBMK_PELLET_BALEFIRE_GOLD =
+            ITEMS.register("rbmk_pellet_balefire_gold",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RBMK_PELLET_FLASHLEAD =
+            ITEMS.register("rbmk_pellet_flashlead",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RBMK_PELLET_BALEFIRE =
+            ITEMS.register("rbmk_pellet_balefire",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RBMK_PELLET_ZFB_BISMUTH =
+            ITEMS.register("rbmk_pellet_zfb_bismuth",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RBMK_PELLET_ZFB_PU241 =
+            ITEMS.register("rbmk_pellet_zfb_pu241",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RBMK_PELLET_ZFB_AM_MIX =
+            ITEMS.register("rbmk_pellet_zfb_am_mix",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RBMK_PELLET_DRX =
+            ITEMS.register("rbmk_pellet_drx",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RBMK_PELLET_LECM =
+            ITEMS.register("rbmk_pellet_lecm",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RBMK_PELLET_MECM =
+            ITEMS.register("rbmk_pellet_mecm",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RBMK_PELLET_HECM =
+            ITEMS.register("rbmk_pellet_hecm",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> WATZ_PELLET =
+            ITEMS.register("watz_pellet",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> WATZ_PELLET_DEPLETED =
+            ITEMS.register("watz_pellet_depleted",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ICF_PELLET_EMPTY =
+            ITEMS.register("icf_pellet_empty",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ICF_PELLET =
+            ITEMS.register("icf_pellet",
+                    () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ICF_PELLET_DEPLETED =
+            ITEMS.register("icf_pellet_depleted",
                     () -> new Item(new Item.Properties()));
 
 }

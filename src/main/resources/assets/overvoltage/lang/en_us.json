@@ -1,12 +1,15 @@
 {
   "creativetab.overvoltage.overvoltage_tab": "Overvoltage",
-  "creativetab.overvoltage.ntm_resources_tab": "NTM Resources",
-
+  "creativetab.overvoltage.ntm_machines_items_tab": "NTM Machines Items and Fuel",
+  "creativetab.overvoltage.ntm_resources_tab": "NTM Resources and Parts",
+  "creativetab.overvoltage.ntm_templates_tab": "NTM Templates",
   "itemGroup.overvoltage.main": "Overvoltage",
 
   "item.overvoltage.raw_titanium": "Raw Titanium",
   "tooltip.overvoltage.raw_titanium.line1": "A chunk of raw titanium. Useful for crafting.",
   "tooltip.overvoltage.raw_titanium.line2": "I wanna sandwich.",
+
+  "item.overvoltage.hard_drive": "Empty Hard Drive",
 
   "item.overvoltage.ingot_uranium": "Uranium Ingot",
   "item.overvoltage.ingot_u233": "Uranium-233 Ingot",
@@ -131,6 +134,7 @@
   "item.overvoltage.ingot_fiberglass": "Fiberglass Bar",
   "item.overvoltage.ingot_asbestos": "Asbestos Sheet",
 
+  "item.overvoltage.pellet_rtg": "Plutonium-238 RTG Pellet",
 
   "block.overvoltage.titanium_block": "Titanium Block",
   "block.overvoltage.titanium_block.desc": "Strong metallic block.",

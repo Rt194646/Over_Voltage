@@ -25,6 +25,88 @@ public class ModCreativeTabs {
                             .build()
             );
 
+    public static final RegistryObject<CreativeModeTab> NTM_TEMPLATES_TAB =
+            CREATIVE_MODE_TABS.register("ntm_templates_tab",
+                    () -> CreativeModeTab.builder()
+                            .title(Component.translatable("creativetab.overvoltage.ntm_templates_tab"))
+                            .icon(() -> new ItemStack(ModItems.HARD_DRIVE.get()))
+                            .withSearchBar()
+                            .displayItems((parameters, output) -> {
+                                output.accept(ModItems.HARD_DRIVE.get());
+                            })
+                            .build()
+            );
+
+    public static final RegistryObject<CreativeModeTab> NTM_MACHINES_ITEMS_TAB =
+            CREATIVE_MODE_TABS.register("ntm_machines_items_tab",
+                    () -> CreativeModeTab.builder()
+                            .title(Component.translatable("creativetab.overvoltage.ntm_machines_items_tab"))
+                            .icon(() -> new ItemStack(ModItems.PELLET_RTG.get()))
+                            .displayItems((parameters, output) -> {
+                                output.accept(ModItems.PELLET_RTG_RADIUM.get());
+                                output.accept(ModItems.PELLET_RTG_WEAK.get());
+                                output.accept(ModItems.PELLET_RTG.get());
+                                output.accept(ModItems.PELLET_RTG_STRONTIUM.get());
+                                output.accept(ModItems.PELLET_RTG_COBALT.get());
+                                output.accept(ModItems.PELLET_RTG_ACTINIUM.get());
+                                output.accept(ModItems.PELLET_RTG_POLONIUM.get());
+                                output.accept(ModItems.PELLET_RTG_AMERICIUM.get());
+                                output.accept(ModItems.PELLET_RTG_BERKELIUM.get());
+                                output.accept(ModItems.PELLET_RTG_GOLD.get());
+                                output.accept(ModItems.PELLET_RTG_LEAD.get());
+                                output.accept(ModItems.PELLET_RTG_CF251.get());
+                                output.accept(ModItems.PELLET_RTG_CF252.get());
+                                output.accept(ModItems.PELLET_RTG_DEPLETED.get());
+                                output.accept(ModItems.PELLET_CLUSTER.get());
+                                output.accept(ModItems.PELLET_BUCKSHOT.get());
+                                output.accept(ModItems.PELLET_CHARGED.get());
+                                output.accept(ModItems.PELLET_GAS.get());
+                                output.accept(ModItems.PELLET_ANTIMATTER.get());
+                                output.accept(ModItems.RBMK_PELLET_UEU.get());
+                                output.accept(ModItems.RBMK_PELLET_MEU.get());
+                                output.accept(ModItems.RBMK_PELLET_HEU233.get());
+                                output.accept(ModItems.RBMK_PELLET_HEU235.get());
+                                output.accept(ModItems.RBMK_PELLET_THMEU.get());
+                                output.accept(ModItems.RBMK_PELLET_LEP.get());
+                                output.accept(ModItems.RBMK_PELLET_MEP.get());
+                                output.accept(ModItems.RBMK_PELLET_HEP239.get());
+                                output.accept(ModItems.RBMK_PELLET_HEP241.get());
+                                output.accept(ModItems.RBMK_PELLET_LEA.get());
+                                output.accept(ModItems.RBMK_PELLET_MEA.get());
+                                output.accept(ModItems.RBMK_PELLET_HEA241.get());
+                                output.accept(ModItems.RBMK_PELLET_HEA242.get());
+                                output.accept(ModItems.RBMK_PELLET_BK247.get());
+                                output.accept(ModItems.RBMK_PELLET_MEN.get());
+                                output.accept(ModItems.RBMK_PELLET_HEN.get());
+                                output.accept(ModItems.RBMK_PELLET_MOX.get());
+                                output.accept(ModItems.RBMK_PELLET_LES.get());
+                                output.accept(ModItems.RBMK_PELLET_MES.get());
+                                output.accept(ModItems.RBMK_PELLET_HES.get());
+                                output.accept(ModItems.RBMK_PELLET_LEAUS.get());
+                                output.accept(ModItems.RBMK_PELLET_HEAUS.get());
+                                output.accept(ModItems.RBMK_PELLET_PO210BE.get());
+                                output.accept(ModItems.RBMK_PELLET_RA226BE.get());
+                                output.accept(ModItems.RBMK_PELLET_PU238BE.get());
+                                output.accept(ModItems.RBMK_PELLET_BALEFIRE_GOLD.get());
+                                output.accept(ModItems.RBMK_PELLET_FLASHLEAD.get());
+                                output.accept(ModItems.RBMK_PELLET_BALEFIRE.get());
+                                output.accept(ModItems.RBMK_PELLET_ZFB_BISMUTH.get());
+                                output.accept(ModItems.RBMK_PELLET_ZFB_PU241.get());
+                                output.accept(ModItems.RBMK_PELLET_ZFB_AM_MIX.get());
+                                output.accept(ModItems.RBMK_PELLET_DRX.get());
+                                output.accept(ModItems.RBMK_PELLET_LECM.get());
+                                output.accept(ModItems.RBMK_PELLET_MECM.get());
+                                output.accept(ModItems.RBMK_PELLET_HECM.get());
+                                output.accept(ModItems.WATZ_PELLET.get());
+                                output.accept(ModItems.WATZ_PELLET_DEPLETED.get());
+                                output.accept(ModItems.ICF_PELLET_EMPTY.get());
+                                output.accept(ModItems.ICF_PELLET.get());
+                                output.accept(ModItems.ICF_PELLET_DEPLETED.get());
+
+                            })
+                            .build()
+            );
+
     public static final RegistryObject<CreativeModeTab> NTM_RESOURCES_TAB =
             CREATIVE_MODE_TABS.register("ntm_resources_tab",
                     () -> CreativeModeTab.builder()

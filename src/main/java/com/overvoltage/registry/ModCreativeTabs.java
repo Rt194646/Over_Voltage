@@ -7,6 +7,7 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
+import org.checkerframework.checker.units.qual.C;
 
 public class ModCreativeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -22,6 +23,56 @@ public class ModCreativeTabs {
                                 output.accept(ModItems.WATER_BOTTLE.get());
                                 output.accept(ModBlocks.TITANIUM_BLOCK_ITEM.get());
                             })
+                            .build()
+            );
+
+    public static final RegistryObject<CreativeModeTab> OC_TAB =
+            CREATIVE_MODE_TABS.register("oc_tab",
+                    () -> CreativeModeTab.builder()
+                            .title(Component.translatable("creativetab.overvoltage.oc_tab"))
+                            .build()
+            );
+
+    public static final RegistryObject<CreativeModeTab> NTM_CONSUMABLES_TAB =
+            CREATIVE_MODE_TABS.register("ntm_consumables_tab",
+                    () -> CreativeModeTab.builder()
+                            .title(Component.translatable("creativetab.overvoltage.ntm_consumables_tab"))
+                            .build()
+            );
+
+    public static final RegistryObject<CreativeModeTab> NTM_WEAPONS_TAB =
+            CREATIVE_MODE_TABS.register("ntm_weapons_tab",
+                    () -> CreativeModeTab.builder()
+                            .title(Component.translatable("creativetab_overvoltage.ntm_weapons_tab"))
+                            .build()
+            );
+
+    public static final RegistryObject<CreativeModeTab> NTM_MISSILES_TAB =
+            CREATIVE_MODE_TABS.register("ntm_missiles_tab",
+                    () -> CreativeModeTab.builder()
+                            .title(Component.translatable("creativetab.overvoltage.ntm_missiles_tab"))
+                            .build()
+            );
+
+    public static final RegistryObject<CreativeModeTab> NTM_BOMBS_TAB =
+            CREATIVE_MODE_TABS.register("ntm_bombs_tab",
+                    () -> CreativeModeTab.builder()
+                            .title(Component.translatable("creativetab.overvoltage.ntm_bombs_tab"))
+                            .backgroundSuffix("minecraft:textures/gui/container/creative_inventory.tab_nuke.png")
+                            .build()
+            );
+
+    public static final RegistryObject<CreativeModeTab> NTM_MACHINES_TAB =
+            CREATIVE_MODE_TABS.register("ntm_machines_tab",
+                    () -> CreativeModeTab.builder()
+                            .title(Component.translatable("cretivetab.overvoltage.ntm_machines_tab"))
+                            .build()
+            );
+
+    public static final RegistryObject<CreativeModeTab> NTM_BLOCKS_TAB =
+            CREATIVE_MODE_TABS.register("ntm_blocks_tab",
+                    () -> CreativeModeTab.builder()
+                            .title(Component.translatable("creativetab.overvoltage.ntm_blocks_tab"))
                             .build()
             );
 
